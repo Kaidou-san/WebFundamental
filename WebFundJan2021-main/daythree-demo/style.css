@@ -1,0 +1,70 @@
+.container {
+    margin: auto;
+    width: 1080px;
+    min-height: 200px;
+}
+
+.header {
+    height: 100px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    color: bisque;
+}
+
+.body {
+    height: 1000px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.top {
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+.image {
+    height: 290px;
+    border: 5px solid gray;
+    margin-right: 20px;
+}
+
+.about {
+    vertical-align: top;
+    width: 450px;
+    display: inline-block;
+    background-color: azure;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.projects {
+    padding-top: 5px;
+    height: 675px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gradientbg {
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin: 0px;
+}
+
+.proj {
+    width: 250px;
+    background-color: darkolivegreen;
+    height: 650px;
+    margin-left: 10px;
+}
+
+.projimg {
+    width: 250px;
+}
+
+.footer {
+    height: 100px;
+    background-color: purple;
+}

@@ -1,0 +1,57 @@
+h1 {
+    background-color: aquamarine;
+}
+
+a {
+    font-size: 20px;
+}
+
+#pugid {
+    color: blue;
+}
+
+.pugheader {
+    text-align: center;
+    color: red;
+}
+
+.pugimage {
+    width: 600px;
+}
+
+.pugdiv {
+    text-align: center;
+}
+
+.linkstyle {
+    display: block;
+}
+
+.special {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1000px;
+    height: 1000px;
+    background-color: green;
+    padding: 10px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.blockheader {
+    width: 900px;
+    height: 200px;
+    background-color: gold;
+    margin: 10px;
+}

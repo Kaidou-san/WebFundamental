@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            console.log(document);
+            console.log($());
+            console.log("Hello world!")
+            console.log($("div.demo-container").html());
+            $("#button").click(function() {
+                // alert("You clicked the button!");
+                $("h3").html("<h1>Smaller hello world</h1>");
+            });
+            $("div").click(function() {
+                var color = $(this).css( "background-color" );
+                $( "#result" ).html( "That div is <span style='color:" +
+                    color + ";'>" + color + "</span>." );
+            });
+            // $( "p" ).on( "mouseover", function() {
+            //     $( this ).css( "background-color", "red" );
+            // });
+            $("div").click(function() {
+                $("p").toggle();
+            })
+        })
+    </script>
+    <style>
+        div {
+          width: 60px;
+          height: 60px;
+          margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Hello world!</h3>
+    <!-- <div class="demo-container">
+        <div class="demo-box">Demonstration Box</div>
+    </div> -->
+    <button id="button">Click me!</button>
+    <p>One</p>
+    <p>One</p>
+    <p>One</p>
+    <p>One</p>
+    <p>One</p>
+    <p>One</p>
+    <span id="result">&nbsp;</span>
+    <div style="background-color:blue;"></div>
+    <div style="background-color:rgb(15,99,30);"></div>
+    <div style="background-color:#123456;"></div>
+    <div style="background-color:#f11;"></div>
+</body>
+</html>

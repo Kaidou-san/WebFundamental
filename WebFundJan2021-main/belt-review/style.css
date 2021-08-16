@@ -1,0 +1,129 @@
+* {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 1920px;
+    background-image: url("images/light_honeycomb/light_honeycomb.png");
+}
+
+.banner {
+    width: 1920px;
+    height: 675px;
+    background-image: url("images/halobanner.jpg");
+    background-size: 1920px 675px;
+    position: relative;
+}
+
+.logostyle {
+    width: 180px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ulnavbar {
+    list-style-type: none;
+}
+
+.navtwo {
+    display: flex;
+}
+
+.signin {
+    margin-left: 30px;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+.bannerfooter {
+    margin-left: 150px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.bfheader {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    margin: 30px 10px 20px 0px;
+    background-color: #1572a4;
+    border: none;
+    font-size: 20px;
+}
+
+.footer {
+    padding: 0px 75px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerimages {
+    width: 450px;
+}
+
+.bluefont {
+    color: #1572a4;
+    margin-top: 8px;
+}
+
+.links {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 3px;
+    border-radius: 50%;
+  }
+
+  a {
+    display: block;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }

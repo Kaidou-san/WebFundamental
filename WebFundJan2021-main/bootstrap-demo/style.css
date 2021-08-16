@@ -1,0 +1,11 @@
+label {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.jumbotron {
+    background-color: aqua !important;
+}
+
+.card {
+    display: inline-block;
+}

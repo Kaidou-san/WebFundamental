@@ -1,0 +1,98 @@
+.container {
+    width: 1000px;
+    min-height: 600px;
+    border: 2px solid #1c0c10;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: goldenrod;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0px 30px;
+    text-decoration: underline;
+}
+
+.nav {
+    width: 200px;
+    height: 250px;
+    background-color: coral;
+    display: inline-block;
+}
+
+.content {
+    width: 700px;
+    min-height: 500px;
+    background-color: dodgerblue;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategray;
+    margin-top: 10px;
+}
+
+.headerstyle {
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 20px;
+    line-height: 200px;
+    font-family: 'Architects Daughter', cursive;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+.contentstyle {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.spanclass {
+    color: orange;
+}
+
+.innerlist {
+    padding: 0px 10px;
+    list-style-type: "🤯";
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.footerstyle {
+    padding: 20px;
+    color:blanchedalmond;
+}
+
+.flexcontainer {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+.third {
+    background-color: aqua;
+    align-self: flex-end;
+}
+
+.second {
+    order: 1;
+    align-self: flex-end;
+}
